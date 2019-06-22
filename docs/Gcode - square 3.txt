@@ -1,0 +1,24 @@
+N5 
+N10 M3     ; Start spindle clockwise (looking from above down)
+N15 S6000  ; Spindle RPM
+N20 G4 P60 ; wait for 60 seconds
+N25 S12000 ;
+N30 G4 P60 ;
+N35 G21    ; Units in mm
+N40 G91
+N45 G0 X0Y0
+N50 G0 Z50;
+N55 Safe height G0 X0 Y0;
+N60 M30; Rewind program
+N65 
+N70 M3     ; Start spindle clockwise (looking from above down)
+N75 S6000  ; Spindle RPM
+N80 G4 P60 ; wait for 60 seconds
+N85 S12000 ;
+N90 G4 P60 ;
+N95 G21    ; Units in mm
+N100 G91
+N105 G0 X0Y0
+N110 G0 Z50;
+N115 Safe height G0 X0 Y0;
+N120 M30; Rewind program

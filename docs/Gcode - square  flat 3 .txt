@@ -1,0 +1,52 @@
+M3     ; Start spindle clockwise (looking from above down)
+S6000  ; Spindle RPM
+G4 P60 ; wait for 60 seconds
+S12000 ;
+G4 P60 ;
+G21    ; Units in mm
+
+
+G91
+G0 X0Y0
+G01 Z0 
+G0 Z0
+G0 X94.8401 Y41.627
+G0 Z0
+G01 Z0 
+G01 X-2.84217e-14 Y200 
+G01 Z0 
+G0 Z0
+G0 X0 Y0
+G0 Z0
+G01 Z0 
+G01 X200 Y0 
+G01 Z0 
+G0 Z0
+G0 X0 Y0
+G0 Z0
+G01 Z0 
+G01 X5.68434e-14 Y-200 
+G01 Z0 
+G0 Z0
+G0 X0 Y0
+G0 Z0
+G01 Z0 
+G01 X-200 Y-4.26326e-14 
+
+G0 Z50;
+Safe height G0 X0 Y0;
+M30; Rewind program
+M3     ; Start spindle clockwise (looking from above down)
+S6000  ; Spindle RPM
+G4 P60 ; wait for 60 seconds
+S12000 ;
+G4 P60 ;
+G21    ; Units in mm
+
+
+G91
+G0 X0Y0
+
+G0 Z50;
+Safe height G0 X0 Y0;
+M30; Rewind program
