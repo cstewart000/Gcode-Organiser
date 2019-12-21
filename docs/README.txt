@@ -1,8 +1,7 @@
-//TODO:
-Triangle and square need a drill operation in the corners for split and combine demos
 
 
-gcoder
+
+#gcoder
 
 A command line program to help manipulate GCODE files quickly.
 
@@ -121,5 +120,6 @@ Something going wrong? add the "-v" flag to get a detailed console output of the
 
 java -jar gcoder.jar -f triangle.tap -r 90 -v
 
-
+#TODOS:
+Triangle and square need a drill operation in the corners for split and combine demos
 
