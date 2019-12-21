@@ -1,7 +1,7 @@
 
 
 
-#gcoder
+# GCode-Organiser
 
 A command line program to help manipulate GCODE files quickly.
 
